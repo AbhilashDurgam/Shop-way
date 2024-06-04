@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+        body{
+          background: linear-gradient(to left, rgba(255, 255, 255, 0.604), rgba(0, 152, 222, 0.478) );
+        }
+        .sec{
+          background: url(https://citywestshoppingcentre.com/app/uploads/2017/04/Woman-Shopping-Banner.jpg);
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 88vh;
+          margin-top: 5%;
+        }
+        .well{
+          font-size: 60px;
+            font-family: "EB Garamond", serif;
+            font-weight: bold;
+            color: brown;
+            margin-top: 15%;
+            font-family: "Sevillana", cursive;
+            font-size: 110px;
+        }
+        .sec1{
+          margin-top: 3%;
+        }
+        .imaginari{
+            width: 100%;
+            aspect-ratio: 3/2;
+            object-fit: cover;
+        }
+        .head1{
+            font-size: 60px;
+            font-family: "EB Garamond", serif;
+            font-weight: bold;
+            color: brown;
+            /* margin-top: 15%; */
+        }
+        span{
+            color: rgb(33, 112, 216);
+            font-size: 60px;
+            /* justify-content: ; */
+        }
+        .box{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 4%;
+            /* aspect-ratio: 3/2; */
+        }
+        .card-title{
+          color: rgb(255, 0, 0);
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 8%;
+        }
