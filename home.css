@@ -1,29 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
         body{
           background: linear-gradient(to left, rgba(255, 255, 255, 0.604), rgba(0, 152, 222, 0.478) );
         }
-        .sec{
-          background: url(https://citywestshoppingcentre.com/app/uploads/2017/04/Woman-Shopping-Banner.jpg);
-          background-size: cover;
-          background-position: center;
-          width: 100%;
-          height: 88vh;
-          margin-top: 5%;
-        }
+.banner {
+    background: url('./images/banner.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: cover;
+    padding: 15%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px red;
+    margin-top: 4%;
+}
+.banner h1{
+    color: rgb(0, 221, 255);
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -10%;
+    font-family: "Lora", serif;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+} 
         .well{
           font-size: 60px;
             font-family: "EB Garamond", serif;
             font-weight: bold;
             color: brown;
-            margin-top: 15%;
+            /* margin-top: 15%; */
             font-family: "Sevillana", cursive;
             font-size: 110px;
         }
-        .sec1{
-          margin-top: 3%;
-        }
         .imaginari{
-            width: 100%;
+            width: 10%;
             aspect-ratio: 3/2;
             object-fit: cover;
         }
@@ -39,16 +50,28 @@
             font-size: 60px;
             /* justify-content: ; */
         }
-        .box{
+        /* .box{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            margin-top: 4%;
-            /* aspect-ratio: 3/2; */
-        }
+             margin-top: 4%; 
+            aspect-ratio: 3/2; 
+        } */
         .card-title{
           color: rgb(255, 0, 0);
           font-size: 25px;
           font-weight: bold;
           margin-bottom: 8%;
         }
+      .card{
+        height: 650px;
+      }
+      .card-img-top{
+        height: 500px;
+        object-fit: cover;
+      }
+      @media All and  (min-width:300px) and (max-width:992px){
+        .banner{
+          margin-top: 18%;
+        }
+      }

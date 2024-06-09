@@ -3,33 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop way</title>
+    <title>Login Shop Way</title>
     <link rel="icon" href="./images/Shop way.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/c56a316195.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./log.css">
     <link rel="stylesheet" href="./index.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-        body{
-            background-color: rgb(200, 200, 200);
-        }
-        .sec1{
-            margin-top: 10%;
-        }
-        h1{
-            color: red;
-            font-size: 100px;
-            font-family: "Dancing Script", cursive;
-        }
-        .fa-solid{
-            color: blue;
-            font-size: 150px;
-        }
-    </style>
 </head>
 <body>
-    <section class="sec1">
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <!-- navebar section  -->
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <img src="./images/Shop way.png" alt="Logo" width="50px">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,15 +53,37 @@
           </div>
         </div>
       </nav>
+    <!-- login section  -->
+    <section class="login">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="login-form">
+                        <h1>Shop Way</h1>
+                        <label for="name" class="names">Name </label>
+                        <input type="text" required placeholder="Enter your name" class="form-control put" id="name">
+                        <label for="email" class="names">Email </label>
+                        <input type="email" required placeholder="Enter your email" class="form-control put" id="email">
+                        <!-- <label for="date" class="names">Date of birth</label> -->
+                        <!-- <input type="date" required class="form-control put" id="date"> -->
+                        <label for="password" class="names">Password </label>
+                        <input type="password" required placeholder="Enter your password" class="form-control put" id="password">
+                        <!-- <label for="password" class="names">Conform Password </label> -->
+                        <!-- <input type="password" required placeholder="Re-enter your password" class="form-control put" id="password"> -->
+                        <label for="box" class="box"><input type="checkbox" required id="box">
+                            I accepct Terms and condetions</label>
+                        <button>Login</button>
+                        <p class="account">Dont have an account ? <a href="./signup.html">Signup</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
-    <h1 class="text-center m-5">More products are avilable soon <br> Continue your shopping <br><br><i class="fa-solid fa-cart-plus"></i></h1>
-
-
-    <footer>
+    <!-- <footer>
       <div class="end">
           <p>&copy; 2024 My Website. All rights reserved.</p>
       </div>
-  </footer>
+  </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

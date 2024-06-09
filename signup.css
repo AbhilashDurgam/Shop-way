@@ -17,7 +17,7 @@ h1{
 .login{
     border: 1px solid rgb(208, 208, 208);
     margin-left: 20%;
-    margin-top: 4%;
+    margin-top: 8%;
     width: 25%;
     border-radius: 20px;
     height: 40%;
@@ -73,3 +73,60 @@ button{
     color: black;
     text-decoration: underline;
 }
+@media all and (min-width:320px) and (max-width: 480px){
+    .login{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .sec2 {
+        width: 90%;
+        margin: 10% auto;
+    }
+    
+    .put {
+        font-size: 16px;
+    }
+    
+    button {
+        font-size: 16px;
+    }
+    
+    .names {
+        font-size: 16px;
+    }
+    
+    .account {
+        font-size: 16px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 992px) {
+    .login{
+        width: 60%;
+    }
+    .sec2 {
+        width: 90%;
+        margin: 10% auto;
+    }
+    
+    .put {
+        font-size: 16px;
+    }
+    
+    button {
+        font-size: 16px;
+    }
+    
+    .names {
+        font-size: 16px;
+    }
+    
+    .account {
+        font-size: 16px;
+    }
+}
+@media Screen and  (min-width:300px) and (max-width:992px){
+    .login{
+      margin-top: 18%;
+    }
+  }
