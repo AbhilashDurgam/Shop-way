@@ -6,6 +6,8 @@ body{
     background: url(https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1717027200&semt=ais_user);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 .sec1{
     margin-top: 8%;
